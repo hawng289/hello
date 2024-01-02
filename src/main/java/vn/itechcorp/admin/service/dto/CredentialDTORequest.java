@@ -1,4 +1,4 @@
-package vn.itechcorp.admin.rest;
+package vn.itechcorp.admin.service.dto;
 
 import lombok.Getter;
 import lombok.Setter;

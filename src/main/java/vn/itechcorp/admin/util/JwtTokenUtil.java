@@ -1,4 +1,4 @@
-package vn.itechcorp.admin.rest;
+package vn.itechcorp.admin.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -9,6 +9,9 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 import vn.com.itechcorp.pacs.cloud.base.security.JwtUserDetails;
+import vn.itechcorp.admin.security.JwtAdminDetails;
+import vn.itechcorp.admin.security.WebSecurityConfig;
+import vn.itechcorp.admin.security.JwtTokenResponse;
 
 import java.io.Serializable;
 import java.util.*;

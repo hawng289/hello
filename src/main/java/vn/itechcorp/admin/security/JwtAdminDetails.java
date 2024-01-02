@@ -1,4 +1,4 @@
-package vn.itechcorp.admin.rest;
+package vn.itechcorp.admin.security;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,8 +9,8 @@ import vn.itechcorp.admin.jpa.entity.Admin;
 
 import java.util.Collection;
 
-
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor
 public class JwtAdminDetails implements UserDetails {
 
@@ -66,4 +66,5 @@ public class JwtAdminDetails implements UserDetails {
     @Override
     public boolean isEnabled() { return true; }
 }
+
 

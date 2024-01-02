@@ -1,4 +1,4 @@
-package vn.itechcorp.admin.rest;
+package vn.itechcorp.admin.service.dto;
 
 import vn.com.itechcorp.base.service.dto.DtoGet;
 import vn.itechcorp.admin.jpa.entity.Admin;
